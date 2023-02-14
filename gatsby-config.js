@@ -6,10 +6,8 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/template'; // change to your repo path e.g. 'https://learning.postman.com/open-technologies'
-// uncomment and add your path to the PATH_PREFIX variable to use new repo prefix
-// const PATH_PREFIX = '<path_to_repo>'; // EXAMPLE: const PATH_PREFIX = '/open-technologies'
-const PATH_PREFIX = '/template'; // EXAMPLE: const PATH_PREFIX = '/open-technologies'
+const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/collection-format';
+const PATH_PREFIX = '/collection-format'; 
 
 
 module.exports = {
