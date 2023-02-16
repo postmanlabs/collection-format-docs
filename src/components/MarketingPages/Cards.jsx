@@ -41,7 +41,7 @@ export const LandingCard = ({
       <h3 className="landing-card__content-title h4">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
       <BaseLink 
-        href={link} 
+        src={link} 
         linkType="arrowLink"
         target="same-tab"
       >
