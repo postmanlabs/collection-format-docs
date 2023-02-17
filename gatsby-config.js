@@ -9,7 +9,6 @@ require('dotenv').config({
 const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/collection-format';
 const PATH_PREFIX = '/collection-format'; 
 
-
 module.exports = {
   siteMetadata: {
     title: 'Postman Marketing Template Doc',
