@@ -44,15 +44,15 @@
          },
          {
            property: 'og:description',
-           content: `${title}: documentation for Postman, the collaboration platform for API development. Create better APIs—faster.`,
+           content: `${title}: documentation for Postman collections, a portable format for organizing API request and workflows.`,
          },
          {
            property: 'og:title',
-           content: `${title} | Postman Learning Center`,
+           content: `${title} | Postman Collection Format`,
          },
          {
            property: 'og:site_name',
-           content: 'Postman Learning Center',
+           content: 'Postman Collection Format',
          },
          {
           property: 'article:publisher',
@@ -80,11 +80,11 @@
          },
          {
            name: 'twitter:title',
-           content: `${title} | Postman Learning Center`,
+           content: `${title} | Postman Collection Format`,
          },
          {
            property: 'twitter:description',
-           content: `${title}: documentation for Postman, the collaboration platform for API development. Create better APIs—faster.`,
+           content: `${title}: documentation for Postman collections, a portable format for organizing API request and workflows.`,
          },
          {
            property: 'twitter:domain',
@@ -104,6 +104,14 @@
        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
        <link rel="canonical" href={`https://learning.postman.com${slug}`} />
+       {/* Algolia Instantsearch IE11 support v3 */}
+       {/* <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}
+       {/*  */}
+       {/* Algolia Instantsearch IE11 support v4 */}
+       <link rel="dns-prefetch" href="https://polyfill.io" />
+       <link crossOrigin rel="preconnect" href="https://polyfill.io" />
+       <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"></script>
+
      </Helmet>
    );
  }
