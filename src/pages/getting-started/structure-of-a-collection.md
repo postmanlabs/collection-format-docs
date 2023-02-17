@@ -18,11 +18,19 @@ contextual_links:
 ## Contents
 
 - [Structure of a collection](/docs/getting-started/concepts/#structure)
+<<<<<<< HEAD
     - [Info](docs/getting-started/concepts/#info)
     - [Item](/docs/getting-started/concepts/#item)
     - [ItemGroup](/docs/getting-started/concepts/#item-groups)
     - [Request](/docs/getting-started/concepts/#request)
     - [Events](/docs/getting-started/concepts/#events)
+=======
+  - [Info](docs/getting-started/concepts/#info)
+  - [Item](/docs/getting-started/concepts/#item)
+  - [ItemGroup](/docs/getting-started/concepts/#item-groups)
+  - [Request](/docs/getting-started/concepts/#request)
+  - [Events](/docs/getting-started/concepts/#events)
+>>>>>>> 20a75c6 (Included documentation for the collection format)
 
 Collections consist of a set of reusable parts called units. These units can be nested within each other and used in different parts of a collection.
 
