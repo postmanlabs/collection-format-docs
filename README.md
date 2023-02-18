@@ -10,7 +10,7 @@ Please refer to our [FAQs](https://postmanlabs.atlassian.net/wiki/spaces/MT/page
 
 ## How to get started
 
-* Clone down this repo 
+* Clone down this repo
 * In your terminal run:
 
 ```
