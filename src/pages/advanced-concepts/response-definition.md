@@ -20,9 +20,9 @@ For every API request made over HTTP, there is a corresponding HTTP response. Th
 ## Contents
 
 - [Response object](/docs/advanced-concepts/response-definition/#concepts)
-  - [Original request](/docs/advanced-concepts/response-definition/#original-request)
-  - [Headers](/docs/advanced-concepts/response-definition/#headers)
-  - [Body](/docs/advanced-concepts/response-definition/#body)
+    - [Original request](/docs/advanced-concepts/response-definition/#original-request)
+    - [Headers](/docs/advanced-concepts/response-definition/#headers)
+    - [Body](/docs/advanced-concepts/response-definition/#body)
 
 <br />
 <br />
