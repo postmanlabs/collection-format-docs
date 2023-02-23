@@ -12,7 +12,7 @@ const PATH_PREFIX = '/collection-format';
 
 module.exports = {
   siteMetadata: {
-    title: 'Postman Marketing Template Doc',
+    title: 'Postman Collection Format Doc',
     description: '',
     author: 'Postman',
     siteUrl: SITE_URL,
@@ -68,8 +68,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Marketing Template Doc',
-        short_name: 'Marketing Template Doc',
+        name: 'Postman Collection Format Doc',
+        short_name: 'Postman Collection Format Doc',
         start_url: '/',
         background_color: '#FF6C37',
         theme_color: '#FF6C37',
