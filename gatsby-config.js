@@ -6,16 +6,17 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/collection-format';
+const SITE_URL = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/collection-format';
+const DOMAIN_NAME = process.env.DOMAIN_NAME ? process.env.DOMAIN_NAME : 'learning.postman.com';
 const PATH_PREFIX = '/collection-format'; 
-
 
 module.exports = {
   siteMetadata: {
-    title: 'Postman Marketing Template Doc',
+    title: 'Postman Collection Format Doc',
     description: '',
     author: 'Postman',
-    siteUrl: siteUrl,
+    siteUrl: SITE_URL,
+    domainName: DOMAIN_NAME,
     pathPrefix: PATH_PREFIX
   },
   pathPrefix: PATH_PREFIX, 
@@ -67,8 +68,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Marketing Template Doc',
-        short_name: 'Marketing Template Doc',
+        name: 'Postman Collection Format Doc',
+        short_name: 'Postman Collection Format Doc',
         start_url: '/',
         background_color: '#FF6C37',
         theme_color: '#FF6C37',
@@ -88,8 +89,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: siteUrl,
-        sitemap:`${siteUrl}/sitemap/sitemap-index.xml`,
+        host: SITE_URL,
+        sitemap:`${SITE_URL}/sitemap/sitemap-index.xml`,
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV,
         env: {
           development: {

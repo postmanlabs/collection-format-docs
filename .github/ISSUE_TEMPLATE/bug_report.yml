@@ -3,7 +3,7 @@ description: Report typos, broken links, or other documentation errors
 title: 'Marketing Template Doc bug report'
 labels: ["bug"]
 assignees:
-  - OlliesWorld
+  - Gbahdeyboh
 body:
 - type: checkboxes
   attributes:

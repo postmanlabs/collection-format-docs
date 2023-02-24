@@ -43,16 +43,16 @@ class IndexPage extends React.Component {
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
-                  <h1>Marketing Docs Template</h1>
+                  <h1>Postman Collection Format</h1>
                   <p className="subtitle">
-                    Learn how to use Postman.
+                    Understand the specification behind Postman collections.
                     {' '}
                     <br />
                     Check out the docs and support resources!
                   </p>
                   <Button
                     onClick={() => {
-                      navigate("/getting-started/introduction/")
+                      navigate("/getting-started/overview/")
                     }} 
                     className="mb-5 secondary"
                   >
