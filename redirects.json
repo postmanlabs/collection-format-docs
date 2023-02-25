@@ -1,9 +1,5 @@
 [
 	{
-<<<<<<< HEAD
-		"from": "/",
-		"to": "/getting-started/overview/"
-=======
 		"from": "/concepts/",
 		"to": "/docs/"
 	},
@@ -22,6 +18,5 @@
 	{
 		"from": "/docs/toolings/collection-sdk/",
 		"to": "/docs/toolings/collection-sdk/installation/"
->>>>>>> 20a75c6 (Included documentation for the collection format)
 	}
 ]
