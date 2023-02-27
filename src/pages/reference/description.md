@@ -19,9 +19,9 @@ Descriptions can be raw text or an object that holds the description content alo
 
 ## Contents
 
-- [Reference table](/docs/reference/description/#reference-table)
-- [Reference diagram](/docs/reference/description/#reference-diagram)
-- [Schema]((/docs/reference/description/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -37,7 +37,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Description Unit Image](../../../images/description.jpeg)
+![Description Unit Image](../../../images/description@2x.jpg)
 
 <br />
 

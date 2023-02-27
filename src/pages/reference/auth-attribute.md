@@ -19,9 +19,9 @@ The auth attribute object represents an attribute for any authorization method i
 
 ## Contents
 
-- [Reference table](/docs/reference/auth-attribute/#reference-table)
-- [Reference diagram](/docs/reference/auth-attribute/#reference-diagram)
-- [Schema](/docs/reference/auth-attribute/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 ### Reference table
 
@@ -35,7 +35,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Auth Attribute Image](../../../images/auth-attribute.jpeg)
+![Auth Attribute Image](../../../images/auth-attribute@2x.jpg)
 
 <br />
 

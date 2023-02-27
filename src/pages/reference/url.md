@@ -19,9 +19,9 @@ The URL object lets you define different parts of your URL in a collection.
 
 ## Contents
 
-- [Reference table](/docs/reference/url/#reference-table)
-- [Reference diagram](/docs/reference/url/#reference-diagram)
-- [Schema](/docs/reference/url/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -42,7 +42,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Url Object Image](../../../images/url.jpeg)
+![Url Object Image](../../../images/url@2x.jpg)
 
 <br />
 

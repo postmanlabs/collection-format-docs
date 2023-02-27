@@ -1,6 +1,22 @@
 [
 	{
-		"from": "/",
-		"to": "/getting-started/overview/"
+		"from": "/concepts/",
+		"to": "/docs/"
+	},
+	{
+		"from": "/docs/",
+		"to": "/docs/getting-started/overview/"
+	},
+	{
+		"from": "/docs/getting-started/",
+		"to": "/docs/getting-started/overview/"
+	},
+	{
+		"from": "/docs/advanced-concepts/",
+		"to": "/docs/advanced-concepts/request-definition/"
+	},
+	{
+		"from": "/docs/toolings/collection-sdk/",
+		"to": "/docs/toolings/collection-sdk/installation/"
 	}
 ]

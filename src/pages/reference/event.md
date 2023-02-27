@@ -19,9 +19,9 @@ Events let you define a script that runs when certain events are fired.
 
 ## Contents
 
-- [Reference table](/docs/reference/event/#reference-table)
-- [Reference diagram](/docs/reference/event/#reference-diagram)
-- [Schema](/docs/reference/event/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -38,7 +38,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Description Unit Image](../../../images/event.jpeg)
+![Description Unit Image](../../../images/event@2x.jpg)
 
 <br />
 

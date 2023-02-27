@@ -19,9 +19,9 @@ The cookie object in collections follows the [Google Chrome Cookie format](https
 
 ## Contents
 
-- [Reference table](/docs/reference/cookie/#reference-table)
-- [Reference diagram](/docs/reference/cookie/#reference-diagram)
-- [Schema](/docs/reference/cookie/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -43,7 +43,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Cookie Unit Image](../../../images/cookie.jpeg)
+![Cookie Unit Image](../../../images/cookie@2x.jpg)
 
 <br />
 

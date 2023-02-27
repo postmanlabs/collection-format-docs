@@ -19,9 +19,9 @@ The collection object includes every other thing in a collection. It allows you 
 
 ## Contents
 
-- [Reference table](/docs/reference/collection/#reference-table)
-- [Reference diagram](/docs/reference/collection/#reference-diagram)
-- [Schema](/docs/reference/collection/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -40,7 +40,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Collection Object Diagram](../../../images/collection-format-overview-ref.jpg)
+![Collection Object Diagram](../../../images/collection-format-overview-plain@2x.jpg)
 
 <br />
 

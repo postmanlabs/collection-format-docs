@@ -19,9 +19,9 @@ You can version your collections as they grow, and this field holds the version 
 
 ## Contents
 
-- [Reference table](/docs/reference/version/#reference-table)
-- [Reference diagram](/docs/reference/version/#reference-diagram)
-- [Schema](/docs/reference/version/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -39,7 +39,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Version Object Diagram](../../../images/version.jpeg)
+![Version Object Diagram](../../../images/version@2x.jpg)
 
 <br />
 

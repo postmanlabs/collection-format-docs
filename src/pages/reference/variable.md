@@ -19,9 +19,9 @@ Variables in collections remove the need to duplicate data in multiple places. V
 
 ## Contents
 
-- [Reference table](/docs/reference/variable/#reference-table)
-- [Reference diagram](/docs/reference/variable/#reference-diagram)
-- [Schema](/docs/reference/variable/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -42,7 +42,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Variable Object Diagram](../../../images/variable.jpeg)
+![Variable Object Diagram](../../../images/variable@2x.jpg)
 
 <br />
 

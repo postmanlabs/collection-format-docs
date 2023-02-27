@@ -19,9 +19,9 @@ The header objects allows you to include HTTP headers in your requests.
 
 ## Contents
 
-- [Reference table](/docs/reference/header/#reference-table)
-- [Reference diagram](/docs/reference/header/#reference-diagram)
-- [Schema](/docs/reference/header/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
@@ -38,7 +38,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Header Unit Image](../../../images/header.jpeg)
+![Header Unit Image](../../../images/header@2x.jpg)
 
 <br />
 

@@ -19,9 +19,9 @@ The auth object represents the different authentication helpers that can be used
 
 ## Contents
 
-- [Reference table](/docs/reference/auth/#reference-table)
-- [Reference diagram](/docs/reference/auth/#reference-diagram)
-- [Schema](/docs/reference/auth/#json-schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
