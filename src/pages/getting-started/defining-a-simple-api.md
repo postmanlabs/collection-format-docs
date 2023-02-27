@@ -17,9 +17,9 @@ contextual_links:
 
 ## Contents
 
-- [Basic API structure](/docs/getting-started/defining-a-simple-api/)
-- [APIs with multiple requests](/docs/getting-started/defining-a-simple-api/#defining-an-api-with-multiple-requests)
-- [Nesting folders](/docs/getting-started/defining-a-simple-api/#nesting-folders)
+- [Basic API structure](#basic-api-structure)
+- [APIs with multiple requests](#defining-an-api-with-multiple-requests)
+- [Nesting folders](#nesting-folders)
 
 ## Basic API structure
 

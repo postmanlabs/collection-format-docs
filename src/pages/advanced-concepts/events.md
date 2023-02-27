@@ -21,10 +21,10 @@ Events let you declare scripts that you can execute at certain stages in the lif
 
 ## Contents
 
-- [Event object](/docs/advanced-concepts/events/#event-object)
-- [Scripts](/docs/advanced-concepts/events/#scripts)
-- [Pre-request scripts](/docs/advanced-concepts/events/#prerequest-scripts)
-- [Test scripts](/docs/advanced-concepts/events/#test-scripts)
+- [Event object](#event-object)
+- [Scripts](#scripts)
+- [Pre-request scripts](#pre-request-scripts)
+- [Test scripts](#test-scripts)
   
 ## Event object
 

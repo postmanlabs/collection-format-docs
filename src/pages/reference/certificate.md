@@ -19,9 +19,9 @@ The certificate object lets you represent an SSL certificate in a collection.
 
 ## Contents
 
-- [Reference table](/docs/reference/certificate/#reference-table)
-- [Reference diagram](/docs/reference/certificate/#reference-diagram)
-- [Schema](/docs/reference/certificate/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

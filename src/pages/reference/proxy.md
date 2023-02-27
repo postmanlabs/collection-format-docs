@@ -19,9 +19,9 @@ Using the proxy object, you can configure a custom proxy into Postman for a part
 
 ## Contents
 
-- [Reference table](/docs/reference/proxy/#reference-table)
-- [Reference diagram](/docs/reference/proxy/#reference-diagram)
-- [Schema](/docs/reference/proxy/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

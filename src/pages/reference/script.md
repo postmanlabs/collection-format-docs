@@ -19,9 +19,9 @@ A script is a snippet of code that you can use to perform setup or teardown oper
 
 ## Contents
 
-- [Reference table](/docs/reference/script/#reference-table)
-- [Reference diagram](/docs/reference/script/#schema)
-- [Schema](/docs/reference/script/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#schema)
+- [Schema](#schema)
 
 <br />
 

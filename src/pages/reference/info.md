@@ -19,9 +19,9 @@ The info object contains metadata information for the collection.
 
 ## Contents
 
-- [Reference table](/docs/reference/info/#reference-table)
-- [Reference diagram](/docs/reference/info/#reference-diagram)
-- [Schema](/docs/reference/info/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

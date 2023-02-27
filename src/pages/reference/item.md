@@ -19,9 +19,9 @@ An item is the basic building block of a collection. Items let you specify a req
 
 ## Contents
 
-- [Reference table](/docs/reference/item/#reference-table)
-- [Reference diagram](/docs/reference/item/#reference-diagram)
-- [Schema](/docs/reference/item/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

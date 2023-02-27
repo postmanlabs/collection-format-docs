@@ -19,18 +19,18 @@ Variables in collections let you declare a value once and re-use it in multiple 
 
 ## Contents
 
-- [Variable definition and usage](/docs/advanced-concepts/variables/#variable-definition-and-usage)
+- [Variable definition and usage](#variable-definition-and-usage)
 
-- [Collection variables](/docs/advanced-concepts/variables/#collection-variables)
+- [Collection variables](#collection-variables)
 
-- [Unit variables](/docs/advanced-concepts/variables/#unit-variables)
-    - [Item scope](/docs/advanced-concepts/variables/#item-scoped)
-    - [URL scope](/docs/advanced-concepts/variables/#url-scoped)
+- [Unit variables](#unit-variables)
+    - [Item scope](#item-scope)
+    - [URL scope](#url-scope)
 
-- [Use cases](/docs/advanced-concepts/variables/#use-cases)
-    - [Variables in query params](/docs/advanced-concepts/variables/#variables-in-query-params)
-    - [Variables in request body](/docs/advanced-concepts/variables/#variables-in-request-body)
-    - [Variables in GraphQL](/docs/advanced-concepts/variables/#variables-in-graphql)
+- [Use cases](#use-cases)
+    - [Variables in query params](#variables-in-query-params)
+    - [Variables in request body](#variables-in-request-body)
+    - [Variables in GraphQL](#variables-in-graphql)
 
 ## Variable definition and usage
 
