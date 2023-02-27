@@ -14,8 +14,6 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 This Docs is built using ReactJS, GatsbyJS Framework and styled components for styling.
 
-Please refer to our [FAQs](https://postmanlabs.atlassian.net/wiki/spaces/MT/pages/4287037690/Marketing+Docs+Template) for documentation on how to edit/adjust the repo. If you have more questions, please reach out to Marketing Engineering.
-
 ## How to get started
 
 ```
