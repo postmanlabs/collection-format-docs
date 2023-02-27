@@ -19,9 +19,9 @@ Events let you define a script that runs when certain events are fired.
 
 ## Contents
 
-- [Reference table](/docs/reference/event/#reference-table)
-- [Reference diagram](/docs/reference/event/#reference-diagram)
-- [Schema](/docs/reference/event/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

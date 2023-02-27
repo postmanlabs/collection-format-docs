@@ -19,9 +19,9 @@ The collection object includes every other thing in a collection. It allows you 
 
 ## Contents
 
-- [Reference table](/docs/reference/collection/#reference-table)
-- [Reference diagram](/docs/reference/collection/#reference-diagram)
-- [Schema](/docs/reference/collection/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

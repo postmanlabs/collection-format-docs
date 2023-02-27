@@ -22,8 +22,8 @@ Modeling workflows and representing your APIs in a human-readable and machine-re
 
 ## Contents
 
-- [Documenting collections](/docs/advanced-concepts/documentation/#documenting-collections)
-- [Description object](/docs/advanced-concepts/documentation/#description-object)
+- [Documenting collections](#documenting-collections)
+- [Description object](#description-object)
 
 ## Documenting collections
 

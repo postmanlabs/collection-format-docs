@@ -19,9 +19,9 @@ A request represents an HTTP request. If it's a string, the string is assumed to
 
 ## Contents
 
-- [Reference table](/docs/reference/request/#reference-table)
-- [Reference diagram](/docs/reference/request/#reference-diagram)
-- [Schema](/docs/reference/request/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

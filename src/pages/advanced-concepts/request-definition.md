@@ -34,22 +34,22 @@ An API sits between an application and a server. An application can make an API 
 
 ## Contents
 
-- [Request object](/docs/advanced-concepts/request-definition/#request-object)
-    - [Request headers](/docs/advanced-concepts/request-definition/#request-headers)
-    - [Request methods](/docs/advanced-concepts/request-definition/#request-methods)
-    - [Authorization](/docs/advanced-concepts/request-definition/#auth)
-        - [Auth attributes](/docs/advanced-concepts/request-definition/#auth-attributes)
-    - [Description](/docs/advanced-concepts/request-definition/#description)
-    - [Request body](/docs/advanced-concepts/request-definition/#request-body)
-        - [mode](docs/advanced-concepts/request-definition/#mode)
-        - [raw](/docs/advanced-concepts/request-definition/#raw)
-        - [urlencoded](/docs/advanced-concepts/request-definition/#urlencoded)
-        - [formdata](/docs/advanced-concepts/request-definition/#formdata)
-        - [file](/docs/advanced-concepts/request-definition/#file)
-        - [graphql](/docs/advanced-concepts/request-definition/#graphql)
-    - [URLs](/docs/advanced-concepts/request-definition/#urls)
-    - [Configuring proxies](/docs/advanced-concepts/request-definition/#configuring-proxies)
-    - [Certificates](/docs/advanced-concepts/request-definition/#certificates)
+- [Request object](#request-object)
+    - [Request headers](#request-headers)
+    - [Request methods](#request-methods)
+    - [Authorization](#auth)
+        - [Auth attributes](#auth-attributes)
+    - [Description](#description)
+    - [Request body](#request-body)
+        - [mode](#mode)
+        - [raw](#raw)
+        - [urlencoded](#urlencoded)
+        - [formdata](#formdata)
+        - [file](#file)
+        - [graphql](#graphql)
+    - [URLs](#urls)
+    - [Configuring proxies](#configuring-proxies)
+    - [Certificates](#certificates)
 
 ## Request object
 

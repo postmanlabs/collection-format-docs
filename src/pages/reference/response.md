@@ -19,9 +19,9 @@ The response object allows you to define an HTTP response for its corresponding 
 
 ## Contents
 
-- [Reference table](/docs/reference/response/#reference-table)
-- [Reference diagram](/docs/reference/response/#reference-diagram)
-- [Schema](/docs/reference/response/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 

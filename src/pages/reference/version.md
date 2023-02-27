@@ -19,9 +19,9 @@ You can version your collections as they grow, and this field holds the version 
 
 ## Contents
 
-- [Reference table](/docs/reference/version/#reference-table)
-- [Reference diagram](/docs/reference/version/#reference-diagram)
-- [Schema](/docs/reference/version/#schema)
+- [Reference table](#reference-table)
+- [Reference diagram](#reference-diagram)
+- [Schema](#schema)
 
 <br />
 
