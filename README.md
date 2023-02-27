@@ -12,7 +12,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ## Tech stack
 
-This Docs is built using ReactJS, GatsbyJS Framework and styled components for styling.
+This Docs are built using ReactJS, GatsbyJS Framework, and styled components for styling.
 
 ## How to get started
 
