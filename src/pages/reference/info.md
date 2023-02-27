@@ -39,7 +39,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Info Unit diagram](../../../images/information.jpeg)
+![Info Unit diagram](../../../images/information@2x.jpg)
 
 #### Schema
 

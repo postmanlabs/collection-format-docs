@@ -35,7 +35,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Auth Attribute Image](../../../images/auth-attribute.jpeg)
+![Auth Attribute Image](../../../images/auth-attribute@2x.jpg)
 
 <br />
 

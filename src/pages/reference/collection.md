@@ -40,7 +40,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Collection Object Diagram](../../../images/collection-format-overview-ref.jpg)
+![Collection Object Diagram](../../../images/collection-format-overview-plain@2x.jpg)
 
 <br />
 

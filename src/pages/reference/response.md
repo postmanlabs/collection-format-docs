@@ -43,7 +43,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Response Object Diagram](../../../images/response.jpeg)
+![Response Object Diagram](../../../images/response@2x.jpg)
 
 <br />
 

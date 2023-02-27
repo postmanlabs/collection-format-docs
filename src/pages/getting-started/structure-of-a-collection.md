@@ -30,7 +30,7 @@ Collections consist of a set of reusable parts called units. These units can be 
 
 At a very high level, collections are organized as shown in the following image.
 
-![Collection Structure Image](../../../images/collection-format-overview.jpg)
+![Collection Structure Image](../../../images/collection-format-overview-plain@2x.jpg)
 
 A collection has a single information block and can contain a number of items and item groups.
 

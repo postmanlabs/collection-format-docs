@@ -39,7 +39,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Script Unit Diagram](../../../images/script.jpeg)
+![Script Unit Diagram](../../../images/script@2x.jpg)
 
 <br />
 

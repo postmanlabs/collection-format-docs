@@ -37,7 +37,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Description Unit Image](../../../images/description.jpeg)
+![Description Unit Image](../../../images/description@2x.jpg)
 
 <br />
 

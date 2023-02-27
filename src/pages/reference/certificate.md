@@ -39,7 +39,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Certificate Unit diagram](../../../images/certificate.jpeg)
+![Certificate Unit diagram](../../../images/certificate@2x.jpg)
 
 <br />
 

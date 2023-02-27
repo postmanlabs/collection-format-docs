@@ -38,7 +38,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Header Unit Image](../../../images/header.jpeg)
+![Header Unit Image](../../../images/header@2x.jpg)
 
 <br />
 
