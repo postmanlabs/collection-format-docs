@@ -12,8 +12,8 @@ const PATH_PREFIX = '/collection-format';
 
 module.exports = {
   siteMetadata: {
-    title: 'Postman Collection Format Doc',
-    description: '',
+    title: 'Postman Collection Format',
+    description: 'Documentation for Postman collections, a portable format for organizing API request and workflows.',
     author: 'Postman',
     siteUrl: SITE_URL,
     domainName: DOMAIN_NAME,
