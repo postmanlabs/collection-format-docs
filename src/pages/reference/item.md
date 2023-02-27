@@ -42,7 +42,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Item Unit Diagram](../../../images/item.jpeg)
+![Item Unit Diagram](../../../images/item@2x.jpg)
 
 <br />
 

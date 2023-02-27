@@ -38,7 +38,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Description Unit Image](../../../images/event.jpeg)
+![Description Unit Image](../../../images/event@2x.jpg)
 
 <br />
 

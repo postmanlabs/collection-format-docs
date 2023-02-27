@@ -39,7 +39,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Proxy Object Diagram](../../../images/proxy-config.jpeg)
+![Proxy Object Diagram](../../../images/proxy-config@2x.jpg)
 
 <br />
 

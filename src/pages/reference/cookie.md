@@ -43,7 +43,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Cookie Unit Image](../../../images/cookie.jpeg)
+![Cookie Unit Image](../../../images/cookie@2x.jpg)
 
 <br />
 

@@ -42,7 +42,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Variable Object Diagram](../../../images/variable.jpeg)
+![Variable Object Diagram](../../../images/variable@2x.jpg)
 
 <br />
 

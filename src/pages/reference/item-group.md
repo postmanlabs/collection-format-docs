@@ -41,7 +41,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Item Group Diagram](../../../images/item-group.jpeg)
+![Item Group Diagram](../../../images/item-group@2x.jpg)
 
 <br />
 

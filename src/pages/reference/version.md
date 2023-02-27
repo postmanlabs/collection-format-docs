@@ -39,7 +39,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Version Object Diagram](../../../images/version.jpeg)
+![Version Object Diagram](../../../images/version@2x.jpg)
 
 <br />
 

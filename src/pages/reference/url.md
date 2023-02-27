@@ -42,7 +42,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Url Object Image](../../../images/url.jpeg)
+![Url Object Image](../../../images/url@2x.jpg)
 
 <br />
 

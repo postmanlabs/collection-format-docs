@@ -42,7 +42,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Request Object](../../../images/request.jpeg)
+![Request Object](../../../images/request@2x.jpg)
 
 <br />
 
