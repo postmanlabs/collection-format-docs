@@ -21,7 +21,7 @@ Descriptions can be raw text or an object that holds the description content alo
 
 - [Reference table](/docs/reference/description/#reference-table)
 - [Reference diagram](/docs/reference/description/#reference-diagram)
-- [Schema]((/docs/reference/description/#schema)
+- [Schema](/docs/reference/description/#schema)
 
 <br />
 

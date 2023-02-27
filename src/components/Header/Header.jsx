@@ -333,10 +333,10 @@ const Header = (props) => {
         <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
           <Link
             className="navbar-brand"
-            to="/getting-started/overview/"
+            to="/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
-              Collection Format Documentation
+              Home
               <span className="sr-only">(current)</span>
             </span>
           </Link>
