@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make at [Issues](https://github.com/postmanlabs/postman-docs/issues).
+When contributing to this repository, please first discuss the change you wish to make at [Issues](https://github.com/postmanlabs/collection-format-docs/issues).
 
 We have a [code of conduct](https://www.postman.com/code-of-conduct) that you're expected to follow in all your interactions with the project.
 
@@ -20,7 +20,7 @@ If you run into issues when running the Learning Center locally, try the followi
 1. Enter `rm -rf node_modules; npm i` to remove all existing packages and perform a fresh install.
 1. Enter `gatsby clean` to clear the cache.
 
-If you still have issues running the Learning Center locally, feel free to [open an issue](https://github.com/postmanlabs/postman-docs/issues).
+If you still have issues running the documentation locally, feel free to [open an issue](https://github.com/postmanlabs/collection-format-docs/issues).
 
 ### Workflow
 
@@ -57,7 +57,7 @@ When your PR is opened it will run GitHub Actions which will lint the markdown f
 
 Upon approval your PR will be merged into develop for further verification and then merged into production upon final approval. Please delete your branch once it's been merged to develop to help keep a clean repository.
 
-[homepage]: https://learning.postman.com
+[homepage]: https://learning.postman.com/collection-format
 
 > __Staff and Repo Collaborators__: Please only push to `develop` when changes are ready to publish. The `develop` branch is intended only as a last check to see edits live on the web in a production type build environment before publishing—changes shouldn't sit on the `develop` branch for long before pushing to `master`.
 
@@ -69,7 +69,7 @@ If you would like to add, edit, or replace links you are welcome to do so. There
 
 When creating or editing an internal link (a link that points to a Learning Center doc), be sure to:
 
-* use a relative URL. Example: `/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/`
+* use a relative URL. Example: `/getting-started/overview/`
 * use a trailing slash to keep our app from creating unnecessary 302 redirects. (See example of trailing slash above.)
 * use a leading slash to keep the doc page from 404'ing. (See example of leading slash above.)
 * `npm run dev` the app and check links you have added / edited to ensure they work correctly.
@@ -247,7 +247,7 @@ To use Vale, you must install it. Then you can run Vale to check your work for s
     brew install vale
     ```
 
-1. Download the third-party styles. Run this in the root of your `postman-docs` repo:
+1. Download the third-party styles. Run this in the root of your `collection-format-docs` repo:
 
     ```
     build/pm-get-vale-styles
