@@ -44,7 +44,7 @@
          },
          {
            property: 'og:description',
-           content: `${title}: documentation for Postman collections, a portable format for organizing API request and workflows.`,
+           content: `${title}: documentation for Postman Collection Format, a portable format for organizing API requests and workflows.`,
          },
          {
            property: 'og:title',
@@ -84,7 +84,7 @@
          },
          {
            property: 'twitter:description',
-           content: `${title}: documentation for Postman collections, a portable format for organizing API request and workflows.`,
+           content: `${title}: Documentation for Postman collections, a portable format for organizing API request and workflows.`,
          },
          {
            property: 'twitter:domain',
