@@ -115,7 +115,7 @@ class IndexPage extends React.Component {
                 />
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-6 order-first">
               <br />
               <h2>Generate Code, Mocks, Documentation, API definitions, and many more</h2>
               <p>Collections are both human and machine readable, and have a suite of tools built around them by Postman and it’s community that let’s you generate client and server-side SDKs, documentation, mocks, convert to and from other API specifications and a lot more.</p>
