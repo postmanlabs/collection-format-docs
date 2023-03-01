@@ -29,12 +29,12 @@ The collection object includes every other thing in a collection. It allows you 
 
 Field Name | Type&nbsp;&nbsp; | Required | Description
 --- | --- | --- | ---
-[info](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L6) | [#info](/docs/reference/info) | `true` | Lets you specify relevant metadata for your collection.
-[item](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L9) | [#item](/docs/reference/item) | `true` | The basic unit of a collection. You can think of them as corresponding to a single API endpoint. Each item has one request and might have multiple API responses associated with it.
-[event](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L24) | [#event](/docs/reference/event) | `false` | Lets you declare scripts that are executed when certain events occur.
-[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L27) | [#variable](/docs/reference/variable) | `false` | Lets you store and retrieve data across different units in your collection.
-[auth](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L30) | [#auth](/docs/reference/auth) | `false` | Represents the different authentication helpers that can be used by a collection.
-[protocolProfileBehavior](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L40) | [#protocolProfileBehavior](/docs/reference/protocolProfileBehavior) | `false` | Can change the usual behavior of sending the request.
+[info](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L6) | [#info](/reference/info) | `true` | Lets you specify relevant metadata for your collection.
+[item](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L9) | [#item](/reference/item) | `true` | The basic unit of a collection. You can think of them as corresponding to a single API endpoint. Each item has one request and might have multiple API responses associated with it.
+[event](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L24) | [#event](/reference/event) | `false` | Lets you declare scripts that are executed when certain events occur.
+[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L27) | [#variable](/reference/variable) | `false` | Lets you store and retrieve data across different units in your collection.
+[auth](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L30) | [#auth](/reference/auth) | `false` | Represents the different authentication helpers that can be used by a collection.
+[protocolProfileBehavior](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection.json#L40) | [#protocolProfileBehavior](/reference/protocolProfileBehavior) | `false` | Can change the usual behavior of sending the request.
 
 <br />
 

@@ -61,7 +61,7 @@ Field | Type | Description
 [id](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/script.json#L8) | `string` | A unique, user-defined identifier that you can use to refer to this script from requests.
 [type](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/script.json#L12) | `string` | The type of the script. For example, `text/javascript`.
 [exec](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/script.json#L16) | `string`, `[ string ]` | A string or an array of strings, where each line represents a single line of code. Separate lines make it possible to track changes made to scripts.
-[src](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/script.json#L16) |  [reference-object](/docs/reference/url/)  | Provides a reference for external scripts.
+[src](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/script.json#L16) |  [reference-object](/reference/url/)  | Provides a reference for external scripts.
 [name](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/script.json#L33) | `string` | The name of the script.
 
 Scripting allows you to model workflows for your requests. You can model workflows so that the input of one request is dependent on the output of another and make them run in a sequence. For more information, see [Intro to Scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/) in the Postman Learning Center.

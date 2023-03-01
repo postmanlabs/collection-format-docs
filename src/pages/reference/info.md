@@ -31,8 +31,8 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 --- | --- | --- | ---
 [name](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#L9) | `string` | `true` | A collection's human-friendly name is defined by this field. Set this field to a value that lets you to identify this collection, such as highlighting its usage or content.
 [_postman_id](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#L14) | `string` | `false` | The Postman unique identifier for this collection.
-[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#LL18C6-L18C17) | [#description](/docs/reference/description/) | `false` | The description of this collection.
-[version](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#LL21C6-L21C13) | [#description](/docs/reference/version/) | `false` | The version info of this collection.
+[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#LL18C6-L18C17) | [#description](/reference/description/) | `false` | The description of this collection.
+[version](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#LL21C6-L21C13) | [#description](/reference/version/) | `false` | The version info of this collection.
 [schema](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/info.json#L24) | `string` | `true` | Holds a link to the Postman schema that's used to validate this collection. For example, https://schema.postman.com/collection/json/v2.1.0/draft-07/collection.json.
 
 <br />

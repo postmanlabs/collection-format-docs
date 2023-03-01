@@ -34,7 +34,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 [value](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L16) | `string` | `false` | The value that a variable holds in this collection. The variables are replaced by this value when you run a set of requests from a collection.
 [type](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L19) | `any` | `false` | A variable may have multiple types. This field specifies the type of the variable.
 [name](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L29) | `string` | `false` | The name of the variable.
-[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L33) | [#description](/docs/reference/description/) | `false` | The description of the variable.
+[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L33) | [#description](/reference/description/) | `false` | The description of the variable.
 [system](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L36) | `boolean` | `false` | When set to `true`, indicates that this variable has been set by Postman.
 [disabled](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/variable.json#L41) | `boolean` | `false` | When set to `true`, the variable is ignored at runtime.
 

@@ -15,7 +15,7 @@ contextual_links:
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 
-The cookie list is an array of SSL [cookies](/docs/reference/cookie/).
+The cookie list is an array of SSL [cookies](/reference/cookie/).
 
 #### Schema
 

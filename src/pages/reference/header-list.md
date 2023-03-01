@@ -15,7 +15,7 @@ contextual_links:
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 
-The header list is an array of HTTPS [headers](/docs/reference/header/).
+The header list is an array of HTTPS [headers](/reference/header/).
 
 #### Schema
 

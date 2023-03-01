@@ -19,9 +19,9 @@ An item group is a group of related items. It's often referred to as a folder of
 
 ## Contents
 
-- [Reference table](/docs/reference/item-group/#reference-table)
-- [Reference diagram](/docs/reference/item-group/#reference-diagram)
-- [Schema](/docs/reference/item-group/#schema)
+- [Reference table](/reference/item-group/#reference-table)
+- [Reference diagram](/reference/item-group/#reference-diagram)
+- [Schema](/reference/item-group/#schema)
 
 <br />
 
@@ -30,12 +30,12 @@ An item group is a group of related items. It's often referred to as a folder of
 Field Name | Type&nbsp;&nbsp; | Required | Description
 --- | --- | --- | ---
 [name](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L8) | `string` | `false` | A folder-friendly name. Set this field to a value that allows you to identify this folder.
-[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L12) | [#description](/docs/reference/description/) | `false` | The description of this item group or folder.
-[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L15) | [#variable](/docs/reference/variable/) | `false` | A list of variables scoped to this item group.
-[item](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L18) | [#item](/docs/reference/item/) | `true` | Contains an HTTP request and sample responses. Folders can contain many items.
-[event](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L33) | [#event](/docs/reference/event/) | `false` | A list of events and scripts that can be executed on this item group.
-[auth](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L36) | `null` \| [#auth](/docs/reference/auth/) | `false` | A list of events and scripts that can be executed on this item group.
-[protocolProfileBehavior](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L46) | [#protocolProfileBehavior](/docs/reference/protocol-profile-behavior/) | `false` | A set of configurations used to change the usual behavior of sending the request.
+[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L12) | [#description](/reference/description/) | `false` | The description of this item group or folder.
+[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L15) | [#variable](/reference/variable/) | `false` | A list of variables scoped to this item group.
+[item](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L18) | [#item](/reference/item/) | `true` | Contains an HTTP request and sample responses. Folders can contain many items.
+[event](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L33) | [#event](/reference/event/) | `false` | A list of events and scripts that can be executed on this item group.
+[auth](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L36) | `null` \| [#auth](/reference/auth/) | `false` | A list of events and scripts that can be executed on this item group.
+[protocolProfileBehavior](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item-group.json#L46) | [#protocolProfileBehavior](/reference/protocol-profile-behavior/) | `false` | A set of configurations used to change the usual behavior of sending the request.
 
 <br />
 

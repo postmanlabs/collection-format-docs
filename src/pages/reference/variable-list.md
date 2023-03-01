@@ -15,7 +15,7 @@ contextual_links:
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 
-A variable list is an array of [variables](/docs/reference/variable).
+A variable list is an array of [variables](/reference/variable).
 
 #### Schema
 

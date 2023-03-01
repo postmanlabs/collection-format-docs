@@ -31,7 +31,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 --- | --- | --- | ---
 [id](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/event.json#L8) | `string` | `false` | A unique identifier for the enclosing event.
 [listen](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/event.json#L12) | `string` | `true` | Set to `test` for test scripts or `prerequest` for pre-request scripts.
-[script](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/event.json#L16) | [#script](/docs/reference/script/) | `false` | Contains the test or pre-request script to be executed.
+[script](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/event.json#L16) | [#script](/reference/script/) | `false` | Contains the test or pre-request script to be executed.
 [disabled](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/event.json#L19) | `boolean` | `false` | Indicates whether the event is active. If absent, the event is enabled.
 
 <br />

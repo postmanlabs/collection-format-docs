@@ -31,12 +31,12 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 --- | --- | --- | ---
 [id](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L7) | `string` | `false` | A unique ID that is used to identify collections internally.
 [name](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L11) | `string` | `false` | A human-readable identifier for the current item.
-[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L15) | [#description](/docs/reference/description/) | `false` | The description of this item.
-[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L18) | [#variable](/docs/reference/variable/) | `false` | The variables that are scoped to this item.
-[event](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L21) | [#event](/docs/reference/event/) | `false` | Events that this item listens to.
-[request](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L24) | [#request](/docs/reference/request/) | `true` | The request carries all the necessary information about this HTTP call.
-[response](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L27) | [#response](/docs/reference/response/) | `false` | Represents any type of response received from your HTTP request.
-[protocolProfileBehavior](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#LL34C6-L34C29) | [#protocolProfileBehavior](/docs/reference/protocol-profile-behavior) | `false` | Set of configurations used to change the usual behavior of sending the request.
+[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L15) | [#description](/reference/description/) | `false` | The description of this item.
+[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L18) | [#variable](/reference/variable/) | `false` | The variables that are scoped to this item.
+[event](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L21) | [#event](/reference/event/) | `false` | Events that this item listens to.
+[request](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L24) | [#request](/reference/request/) | `true` | The request carries all the necessary information about this HTTP call.
+[response](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#L27) | [#response](/reference/response/) | `false` | Represents any type of response received from your HTTP request.
+[protocolProfileBehavior](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/item.json#LL34C6-L34C29) | [#protocolProfileBehavior](/reference/protocol-profile-behavior) | `false` | Set of configurations used to change the usual behavior of sending the request.
 
 <br />
 

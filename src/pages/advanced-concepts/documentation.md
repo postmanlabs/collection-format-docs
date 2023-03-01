@@ -27,7 +27,7 @@ Modeling workflows and representing your APIs in a human-readable and machine-re
 
 ## Documenting collections
 
-Collections have different units or parts that each describe a specific aspect of a group of API requests. These different parts often need more details or information that give more context to anyone who interacts with the collection. These extra details are provided using the [description](/docs/reference/description/) object. When the description object added to different parts of a collection, it becomes documentation for that collection.
+Collections have different units or parts that each describe a specific aspect of a group of API requests. These different parts often need more details or information that give more context to anyone who interacts with the collection. These extra details are provided using the [description](/reference/description/) object. When the description object added to different parts of a collection, it becomes documentation for that collection.
 
 ## Description object
 

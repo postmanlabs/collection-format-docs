@@ -34,7 +34,7 @@ Variables in collections let you declare a value once and re-use it in multiple 
 
 ## Variable definition and usage
 
-A variable is defined using a [variable-list](/docs/reference/variable-list/), which is an array of [variable objects](/docs/reference/variable/). Each object has a key-value pair and some metadata that represents different parts of your variable.
+A variable is defined using a [variable-list](/reference/variable-list/), which is an array of [variable objects](/reference/variable/). Each object has a key-value pair and some metadata that represents different parts of your variable.
 
 A variable definition looks like the following:
 
@@ -61,7 +61,7 @@ Field | Type | Description
 [type](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/variable.json#L19) | `string`, `boolean`, `any`, `number` | A variable can have multiple types. This field specifies the type of the variable.
 [name](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/variable.json#L29) | `string` | The name of the variable.
 [disabled](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/variable.json#L41) | `boolean` | When set to `true`, the variable is ignored.
-[description](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/variable.json#L33) | [reference-object](/docs/reference/description/) | A description of the variable.
+[description](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/variable.json#L33) | [reference-object](/reference/description/) | A description of the variable.
 [system](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/variable.json#L36) | `boolean` | When set to `true`, this indicates that the variable is set by Postman.
 
 <br />
@@ -124,7 +124,7 @@ A variable is an example of a collection unit that can be nested in other units.
 
 ### Item scope
 
-Item-scoped variables are scoped to the [item](/docs/reference/item/) unit of a collection.
+Item-scoped variables are scoped to the [item](/reference/item/) unit of a collection.
 
 The following is an example of an item-scoped variable:
 

@@ -55,7 +55,7 @@ In its most basic form, a collection looks like the following:
 
 ### Info
 
-At minimum, the `info` property contains the collection name and schema. You can also [define a version](/docs/reference/version) or provide a [description](/docs/reference/description) of your collection in the `info` property.
+At minimum, the `info` property contains the collection name and schema. You can also [define a version](/reference/version) or provide a [description](/reference/description) of your collection in the `info` property.
 
 ### Item
 

@@ -15,7 +15,7 @@ contextual_links:
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 
-The event list is an array of [events](/docs/reference/event/).
+The event list is an array of [events](/reference/event/).
 
 #### Schema
 
