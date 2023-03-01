@@ -32,7 +32,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 [id](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L8) | `string` | `false` | A unique, user-defined identifier that you can use to refer to this script from requests.
 [type](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L12) | `string` | `false` | Type of the script. For example, `text/javascript`.
 [exec](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L12) | `string` \| `array` | `false` | An array of strings where each line represents a single line of code. Separate lines make it possible to track changes made to scripts.
-[src](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L30) | [#url](/docs/reference/url/) | `false` | An array of strings where each line represents a single line of code. Separate lines make it possible to track changes made to scripts.
+[src](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L30) | [#url](/reference/url/) | `false` | An array of strings where each line represents a single line of code. Separate lines make it possible to track changes made to scripts.
 [name](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L33) | `string` | `false` | The name of the script.
 
 <br />

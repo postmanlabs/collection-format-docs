@@ -40,7 +40,7 @@ The following is an API definition in its most basic form:
 }
 ```
 
-The request above is a URL and defaults to a `GET` request. For a more complete guide on working with the request object in collections, see [Request definition](/docs/advanced-concepts/request-definition/).
+The request above is a URL and defaults to a `GET` request. For a more complete guide on working with the request object in collections, see [Request definition](/advanced-concepts/request-definition/).
 
 ## Defining an API with multiple requests
 

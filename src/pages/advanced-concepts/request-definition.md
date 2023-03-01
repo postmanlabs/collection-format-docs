@@ -88,20 +88,20 @@ The following example shows the basic structure of a request object:
 
 Field | Type | Description
 --- | --- | ---
-[url](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L11) | [reference object](/docs/reference/url/) | If this is an object, contains the complete broken-down URL for this request. If it's a string, contains the literal request URL.
-[auth](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L14) | [reference-object](/docs/reference/auth/) | Represents authentication helpers provided by Postman.
+[url](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L11) | [reference object](/reference/url/) | If this is an object, contains the complete broken-down URL for this request. If it's a string, contains the literal request URL.
+[auth](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L14) | [reference-object](/reference/auth/) | Represents authentication helpers provided by Postman.
 [method](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L30) | `string` | The standard HTTP method associated with this request.
-[description](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L59) | [reference-object](/docs/reference/description/) | Raw text or an object that holds the description along with its format.
-[header](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L62) | [reference-object](/docs/reference/header/) | Represents an HTTP header.
+[description](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L59) | [reference-object](/reference/description/) | Raw text or an object that holds the description along with its format.
+[header](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L62) | [reference-object](/reference/header/) | Represents an HTTP header.
 [body](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L72) | `null` \| `object` | The data contained in the request body.
-[certificate](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L27) | [reference-object](/docs/reference/certificate/) | Represents an SSL certificate.
-[proxy](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L24) | [reference-object](/docs/reference/proxy/) | Configure your custom proxy in Postman for a particular URL match.
+[certificate](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L27) | [reference-object](/reference/certificate/) | Represents an SSL certificate.
+[proxy](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/request.json#L24) | [reference-object](/reference/proxy/) | Configure your custom proxy in Postman for a particular URL match.
 
 <br />
 
 ### Request headers
 
-Collections let you specify the headers of your request using the `header` attribute. This can be a [header object](/docs/reference/header/) or an [array of headers](/docs/reference/header-list/). Each of the attributes of a header is represented as a `key-value` pair object.
+Collections let you specify the headers of your request using the `header` attribute. This can be a [header object](/reference/header/) or an [array of headers](/reference/header-list/). Each of the attributes of a header is represented as a `key-value` pair object.
 
 The following example shows a request header:
 
@@ -119,7 +119,7 @@ The following example shows a request header:
 - `key`: This is the key of a specific header attribute.
 - `value`: This is the corresponding value of a header's `key`.
 - `disable`: This is a Boolean that indicates if the header will be included in the current request or not.
-- `description`: This is a string or [description object](/docs/reference/description/) that describes this specific header attribute.
+- `description`: This is a string or [description object](/reference/description/) that describes this specific header attribute.
 
 For example, if you have the following request header:
 
@@ -197,7 +197,7 @@ Collections let you specify the following types of authorization headers in your
 - `oauth2`
 - `ntlm`
 
-[Authorization](/docs/reference/auth/) is represented using the `auth` attribute and requires the `type` field, which specifies the authorization type. You can use the authorization types listed earlier as fields in the `auth` attribute. The `type` field is an enum and can be any of the types specified above. The type of authorization used depends on the value specified in the `type` field.
+[Authorization](/reference/auth/) is represented using the `auth` attribute and requires the `type` field, which specifies the authorization type. You can use the authorization types listed earlier as fields in the `auth` attribute. The `type` field is an enum and can be any of the types specified above. The type of authorization used depends on the value specified in the `type` field.
 
 The following example shows an authorization type definition:
 
@@ -223,7 +223,7 @@ The following example shows an authorization type definition:
 
 #### Auth attributes
 
-An [auth attribute](/docs/reference/auth-attribute/) is a JSON representation of the credentials contained in an authorization. In the earlier example, the authorization of type `basic` has a corresponding `basic` property. This property contains an array of objects as its value and is referred to as an `auth attribute`.
+An [auth attribute](/reference/auth-attribute/) is a JSON representation of the credentials contained in an authorization. In the earlier example, the authorization of type `basic` has a corresponding `basic` property. This property contains an array of objects as its value and is referred to as an `auth attribute`.
 
 The following example shows an object contained in an `auth attribute` array:
 
@@ -269,7 +269,7 @@ The following example shows the `auth attribute` object as part of a collection 
 
 ### Description
 
-[Descriptions](/docs/reference/description/) help add more context to your definitions. Descriptions can be either strings or objects and their contents can contain Markdown, HTML, or plain text.
+[Descriptions](/reference/description/) help add more context to your definitions. Descriptions can be either strings or objects and their contents can contain Markdown, HTML, or plain text.
 
 ```json
 # Request Definition
@@ -409,22 +409,22 @@ GraphQL requests are made over HTTP in the same way a `POST` or a `GET` request 
 
 ### URLs
 
-A [URL](/docs/reference/url/) in a collection can be as basic as a string, or it can be an object that describes the different parts of that URL. For example, the URL `https://postman-echo.com:443/get/user?username=johndoe&email=john@doe.com` can be represented diagrammatically as shown below.
+A [URL](/reference/url/) in a collection can be as basic as a string, or it can be an object that describes the different parts of that URL. For example, the URL `https://postman-echo.com:443/get/user?username=johndoe&email=john@doe.com` can be represented diagrammatically as shown below.
 
-![Structure of a URL](https://firebasestorage.googleapis.com/v0/b/collection-format-docs.appspot.com/o/docs-images%2FURL%402x%20(1).png?alt=media&token=3f24f4e6-8533-4077-b592-830ff9608b5f)
+![Structure of a URL](https://firebasestorage.googleapis.com/v0/b/collection-format-docs.appspot.com/o-images%2FURL%402x%20(1).png?alt=media&token=3f24f4e6-8533-4077-b592-830ff9608b5f)
 
 A URL object has the following fields:
 
 Field | Type | Description
 --- | --- | ---
-[raw](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L10) | `string` | The string representation of the request [URL](/docs/reference/url/), including the protocol, host, path, hash, query parameters, and path variables.
+[raw](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L10) | `string` | The string representation of the request [URL](/reference/url/), including the protocol, host, path, hash, query parameters, and path variables.
 [protocol](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L14) | `string` | The port number in the URL. An empty value implies 80/443 depending on whether the protocol field contains HTTP or HTTPS.
 [host](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L18) | `string`, `array[string]` |  The host for the URL as a string or array of strings. For example, `api.yourdomain.com`, or `['api', 'yourdomain', 'com']`.
 [path](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L34) | `string`, `array[string\|object]` | The complete path of the current URL broken down into segments. A segment can be a string or a path variable.
 [port](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L63) | `string` | The port number in the URL. An empty value implies 80/443 depending on whether the protocol field contains HTTP or HTTPS.
 [query](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L67) | `object` | An array of QueryParams, which is the query string part of the URL.
 [hash](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L97) | `string` | Contains the URL fragment, if any. This isn't typically transmitted over the network, but it could be useful to store this in some cases.
-[variable](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L101), array[[#variable](/docs/reference/variable/)] | Collections support path variables with the syntax `/path/:variableName/to/somewhere`. These variables are stored in this field.
+[variable](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/url.json#L101), array[[#variable](/reference/variable/)] | Collections support path variables with the syntax `/path/:variableName/to/somewhere`. These variables are stored in this field.
 
 The following example shows how the earlier URL looks in a collection:
 
@@ -479,7 +479,7 @@ The `proxy` request property helps you do this with the following properties:
 
 ### Certificates
 
-You can specify an array of [SSL certificates](/docs/reference/certificate-list/) for your request using the `certificate` property. This array contains [certificate objects](docs/reference/certificate/) that describe each certificate in your request.
+You can specify an array of [SSL certificates](/reference/certificate-list/) for your request using the `certificate` property. This array contains [certificate objects](docs/reference/certificate/) that describe each certificate in your request.
 
 The `certificate` property contains the following objects:
 
