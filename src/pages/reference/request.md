@@ -29,14 +29,14 @@ A request represents an HTTP request. If it's a string, the string is assumed to
 
 Field Name | Type&nbsp;&nbsp; | Required | Description
 --- | --- | --- | ---
-[url](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L11) | [#url](/docs.reference/url/) | `false` | The URL of this request.
-[auth](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L14) | [#auth](/docs.reference/auth/) | `false` | The authentication helper that this request uses.
-[proxy](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L24) | [#proxy](/docs.reference/proxy/) | `false` | Configure a custom proxy for a particular URL match.
-[certificate](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L27) | [#certificate](/docs/reference/certificate/) | `false` | The SSL certificate used in this request.
+[url](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L11) | [#url](/reference/url/) | `false` | The URL of this request.
+[auth](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L14) | [#auth](/reference/auth/) | `false` | The authentication helper that this request uses.
+[proxy](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L24) | [#proxy](/reference/proxy/) | `false` | Configure a custom proxy for a particular URL match.
+[certificate](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L27) | [#certificate](/reference/certificate/) | `false` | The SSL certificate used in this request.
 [method](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L30) | `string` | `false` | The standard HTTP method associated with this request.
-[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L59) | [#description](/docs/reference/description/) | `false` | The description of this request and its parameters.
-[header](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L62) | [#header](/docs/reference/header/) | `false` | The HTTP headers of this request.
-[body](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L72) | [#body](/docs/reference/body/) | `false` | The data of the request body.
+[description](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L59) | [#description](/reference/description/) | `false` | The description of this request and its parameters.
+[header](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L62) | [#header](/reference/header/) | `false` | The HTTP headers of this request.
+[body](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/request.json#L72) | `object` | `false` | The data of the request body.
 
 <br />
 

@@ -15,7 +15,7 @@ contextual_links:
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 
-The certificate list is an array of SSL [certificates](/docs/reference/certificate/).
+The certificate list is an array of SSL [certificates](/reference/certificate/).
 
 <br />
 

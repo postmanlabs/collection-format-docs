@@ -36,11 +36,11 @@ A response object has the following fields in a collection:
 Field | Type | Description
 --- | --- | ---
 [id](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#LL7C2-L7C2) | `string` | A unique, user-defined identifier that can be used to refer to this response from requests.
-[original request](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L11) | [request-object](/docs/reference/request/) | A clone of the request object that originated this response.
+[original request](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L11) | [request-object](/reference/request/) | A clone of the request object that originated this response.
 [response time](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L14) | `null`, `string`, `number` | The time taken by the request to complete. If a number, the unit is milliseconds. If the response is manually created, this can be set to `null`.
 [timings](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L23) | `null`, `object` | Set of timing information related to request and response in milliseconds.
-[headers](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L31) | `string`, array[[#header](/docs/reference/header/)] | An array or string of response headers.
-[cookie](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L58) | array[[#cookie](/docs/reference/cookie/)] | An array of cookie objects.
+[headers](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L31) | `string`, array[[#header](/reference/header/)] | An array or string of response headers.
+[cookie](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L58) | array[[#cookie](/reference/cookie/)] | An array of cookie objects.
 [body](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L64) | `null`, `string` | The body of the response.
 [status](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L71) | `string` | The response status. For example, `200 OK`.
 [code](https://github.com/postmanlabs/schemas/blob/develop/schemas/draft-07/v2.1.0/collection/response.json#L75) | `integer` | The numerical response code. For example, `200`, `201`, or `404`.

@@ -36,7 +36,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 [port](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/url.json#L63) | `string` | `false` | The port number present in this URL. An empty value implies 80/443 depending on whether the protocol field contains HTTP or HTTPS.
 [query](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/url.json#L67) | `string` | `false` | An array of QueryParams, which is the query string part of the URL, parsed into separate variables.
 [hash](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/url.json#L97) | `string` | `false` | Contains the URL fragment, if any. This isn't typically transmitted over the network, but it can be useful to store this in some cases.
-[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/url.json#L101) | [#variable](/docs/reference/variable) | `false` | Stores collection variables with the syntax `/path/:variableName/to/somewhere`.
+[variable](https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/url.json#L101) | [#variable](/reference/variable) | `false` | Stores collection variables with the syntax `/path/:variableName/to/somewhere`.
 
 <br />
 
