@@ -105,7 +105,7 @@ class IndexPage extends React.Component {
           </section>
 
           <section className="row section align-items-center">
-            <div className="col-lg-6 d-flex align-items-center justify-content-center">
+            <div className="col-lg-6 d-flex align-items-center justify-content-center order-2 order-lg-1">
               <div className="embed-responsive-16by9 img-frame">
                 <img
                   src="https://voyager.postman.com/illustration/super-admin-postman-illustration.svg"
@@ -115,7 +115,7 @@ class IndexPage extends React.Component {
                 />
               </div>
             </div>
-            <div className="col-lg-6 order-first">
+            <div className="order-1 order-lg-2 col-lg-6">
               <br />
               <h2>Generate Code, Mocks, Documentation, API definitions, and many more</h2>
               <p>Collections are both human and machine readable, and have a suite of tools built around them by Postman and it’s community that let’s you generate client and server-side SDKs, documentation, mocks, convert to and from other API specifications and a lot more.</p>
