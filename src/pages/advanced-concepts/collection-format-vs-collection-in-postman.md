@@ -63,7 +63,7 @@ Cookies aren't part of the request object in the collection format. When working
 
 Scripting in Postman has a lot of advantages, but the format itself provides you with more options and capabilities:
 
-- **External referencing**: Scripts written in Postman are typed and authored in the script or pre-request tab. When exported, they're placed in the <"a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#LL16C6-L16C6">exec</a> field of a script object as an array of strings. The collection format provides you with an extra option for referencing external scripts using a <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L31">src</a> attribute.
+- **External referencing**: Scripts written in Postman are typed and authored in the script or pre-request tab. When exported, they're placed in the <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#LL16C6-L16C6">exec</a> field of a script object as an array of strings. The collection format provides you with an extra option for referencing external scripts using a <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L31">src</a> attribute.
 
 - **Scripts as arrays**: When you export a collection that has a pre-request or test script in Postman, the JavaScript code is split into an array at each line break. This makes it easier to manage version control on the exported script.
 
