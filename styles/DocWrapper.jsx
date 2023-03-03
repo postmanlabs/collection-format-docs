@@ -112,10 +112,14 @@ blockquote code.language-text {
 table {
   font-size: 16px !important;
   line-height: 1.5;
+  display: wrap;
+  
 }
+
 
 td {
   padding: 10px;
+  width: fit-content;
 }
 
 thead:first-child:hover tr{
