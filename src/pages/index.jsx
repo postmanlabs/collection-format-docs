@@ -54,7 +54,7 @@ class IndexPage extends React.Component {
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
                   <h1>Postman Collection Format</h1>
                   <p className="subtitle">
-                    Understand the specification behind Postman collections.
+                    Understand the specification behind Postman Collections.
                     {' '}
                     <br />
                     Check out the docs and support resources!
@@ -70,7 +70,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
-                    src="https://voyager.postman.com/illustration/postman-learning-center-documentation-illustration.svg"
+                    src="https://voyager.postman.com/illustration/api-client-pegboard-postman-illustration.svg"
                     width="637"
                     height="411"
                     className="hero-image img-fluid"

@@ -1,5 +1,5 @@
 ---
-title: "Differences between the collection format and Postman Collections"
+title: "Differences between the Collection format and Postman Collections"
 order: 1
 page_id: "variables"
 warning: false
@@ -8,16 +8,16 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Essentials: Exploring the Collection Format"
+    name: "Postman Essentials: Exploring the Collection format"
     url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
   - type: link
-    name: "Travelogue of Postman Collection Format v2"
+    name: "Travelogue of Postman Collection format v2"
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 
 Collections are a powerful tool in Postman. They help with manual and automated testing, documentation, mocking, and monitoring, and are used by millions of developers all around the globe.
 
-If you export a collection in Postman, the export is a JSON file that has all the information about your API. This JSON is the collection format definition of your API. The collection format is the default representation for all your collections in Postman, it includes your header, request body, URLs, and variables. However, there are some differences between the collections in Postman and the collection format. Postman provides extra functionality that's abstracted over the format to improve the developer experience. You might export a collection and some parameters that you used in the Postman app will be missing in the exported JSON.
+If you export a collection in Postman, the export is a JSON file that has all the information about your API. This JSON is the Collection format definition of your API. The Collection format is the default representation for all your collections in Postman, it includes your header, request body, URLs, and variables. However, there are some differences between the collections in Postman and the Collection format. Postman provides extra functionality that's abstracted over the format to improve the developer experience. You might export a collection and some parameters that you used in the Postman app will be missing in the exported JSON.
 
 This section describes these differences so that you can take note of them when you export a collection in Postman.
 
@@ -45,29 +45,29 @@ The raw JSON schema for collections is hosted [here](https://schema.postman.com/
 
 ### Working with variables and environments
 
-When working with the collection format, variables can have [multiple scopes](/advanced-concepts/variables/). You can declare them within the scope of the collection, making them global to that collection or within a specific unit.
+When working with the Collection format, variables can have [multiple scopes](/advanced-concepts/variables/). You can declare them within the scope of the collection, making them global to that collection or within a specific unit.
 
 [Variables in Postman collections](https://learning.postman.com/docs/sending-requests/variables/#variable-scopes) have different scopes:
 
 - **Global variables**: Global variables are available across your entire [workspace](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). You can use them in any collection within that workspace. When you export a collection that uses a global variable in Postman, the reference to that variable is included, but the declaration of the variable isn't included in the export because it isn't part of that collection.
 
-- **Collection variables**: Collection variables are declared within the collection scope of your workbench in Postman. They directly translate to collection variables in the collection format and are always included in the exported JSON.
+- **Collection variables**: Collection variables are declared within the collection scope of your workbench in Postman. They directly translate to collection variables in the Collection format and are always included in the exported JSON.
 
 - **Environment variables**: Environment variables enable you to scope your work to different environments. For example, development, testing, or production. One environment can be active at a time. The active environment determines what variables you can use within your collection. If you're using a collection variable, this variable isn't included in the variable declaration of your exported collection JSON. However, there are places in the exported collection that reference where this variable was being used.
 
 ### Working with cookies
 
-Cookies aren't part of the request object in the collection format. When working with cookies in Postman, you can add them to your request headers using the `cookie` key.
+Cookies aren't part of the request object in the Collection format. When working with cookies in Postman, you can add them to your request headers using the `cookie` key.
 
 ### Scripting
 
 Scripting in Postman has a lot of advantages, but the format itself provides you with more options and capabilities:
 
-- **External referencing**: Scripts written in Postman are typed and authored in the script or pre-request tab. When exported, they're placed in the <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#LL16C6-L16C6">exec</a> field of a script object as an array of strings. The collection format provides you with an extra option for referencing external scripts using a <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L31">src</a> attribute.
+- **External referencing**: Scripts written in Postman are typed and authored in the script or pre-request tab. When exported, they're placed in the <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#LL16C6-L16C6">exec</a> field of a script object as an array of strings. The Collection format provides you with an extra option for referencing external scripts using a <a href="https://github.com/postmanlabs/schemas/blob/da7578c2d71c46de2d39d04fbeebc26570591a44/schemas/draft-07/v2.1.0/collection/script.json#L31">src</a> attribute.
 
 - **Scripts as arrays**: When you export a collection that has a pre-request or test script in Postman, the JavaScript code is split into an array at each line break. This makes it easier to manage version control on the exported script.
 
-- **Multiple scripts**: In Postman, a collection or a request can only have one pre-request and test script pair. While they look like a pair, in the collection format, they aren't a pair. They are instead separate [events](/advanced-concepts/events/) in an [event list](/reference/event-list/). The event list can have more than two events and the idea of events is abstracted in Postman. Postman limits usage to two events per collection or request, but the event list can accommodate more pre-request and test scripts. You can make specific events that aren't in use inactive and enable the ones that are active using the `disabled` property.
+- **Multiple scripts**: In Postman, a collection or a request can only have one pre-request and test script pair. While they look like a pair, in the Collection format, they aren't a pair. They are instead separate [events](/advanced-concepts/events/) in an [event list](/reference/event-list/). The event list can have more than two events and the idea of events is abstracted in Postman. Postman limits usage to two events per collection or request, but the event list can accommodate more pre-request and test scripts. You can make specific events that aren't in use inactive and enable the ones that are active using the `disabled` property.
 
 ### protocolProfileBehavior
 
