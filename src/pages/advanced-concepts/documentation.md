@@ -8,10 +8,10 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Essentials: Exploring the Collection Format"
+    name: "Postman Essentials: Exploring the Collection format"
     url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
   - type: link
-    name: "Travelogue of Postman Collection Format v2"
+    name: "Travelogue of Postman Collection format v2"
     url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
 ---
 

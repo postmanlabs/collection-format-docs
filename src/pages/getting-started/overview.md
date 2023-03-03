@@ -16,7 +16,7 @@ contextual_links:
   - type: subtitle
 ---
 
-A collection is an API specification that provides a format for representing, modeling, and organizing different parts of an API request or workflow. Its format is both human-readable and machine-readable, and it lets you create executable workflows for your APIs.
+A ollection is an API specification that provides a format for representing, modeling, and organizing different parts of an API request or workflow. Its format is both human-readable and machine-readable, and it lets you create executable workflows for your APIs.
 
 Collections let you:
 
@@ -26,11 +26,11 @@ Collections let you:
 * Work across the lifecycle of your API.
 * Document and test your API.
 
-The collection format is [open source](https://github.com/postmanlabs/schemas/tree/develop/schemas/draft-07) and is the basis of [collections in Postman](https://www.postman.com/collection/). The format's portability makes it possible to share in a distributed team and run in different environments without any information loss. A single collection file can contain API requests and their parameters, multiple responses to each request, documentation, tests, execution flows, and metadata. This helps developer teams collaborate, increase productivity, and work faster with APIs in any environment.
+The Collection Format is [open source](https://github.com/postmanlabs/schemas/tree/develop/schemas/draft-07) and is the basis of [Collections in Postman](https://www.postman.com/collection/). The format's portability makes it possible to share in a distributed team and run in different environments without any information loss. A single collection file can contain API requests and their parameters, multiple responses to each request, documentation, tests, execution flows, and metadata. This helps developer teams collaborate, increase productivity, and work faster with APIs in any environment.
 
 > This documentation focuses on [version 2.1.0](https://schema.postman.com/collection/json/v2.1.0/draft-07/collection.json) of the collection format.
 
-## Advantages of the collection format
+## Advantages of the Collection format
 
 Collections have the following advantages:
 
