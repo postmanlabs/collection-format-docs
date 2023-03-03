@@ -11,10 +11,10 @@ import {
   CTAButton
 } from './HeaderStyles.jsx' ;
 
-// import navbarData from '../../../bff-data/navbar.json';
+import navbarData from '../../../bff-data/navbar.json';
 
 // For local TOPNAVBAR TESTING
-import navbarDataLocal from '../../../build/navbarDev.json';
+// import navbarDataLocal from '../../../build/navbarDev.json';
 
 import { Paragraph } from 'aether-marketing';
 
@@ -83,7 +83,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarDataLocal);
+  const [data, setData] = useState(navbarData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
