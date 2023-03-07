@@ -364,7 +364,7 @@ const Header = (props) => {
                 data-toggle="dropdown"
                 aria-expanded="false"
               >
-                Collections Format
+                Collection Format
                 <svg
                   className="arrow-icon"
                   xmlns="http://www.w3.org/2000/svg"
