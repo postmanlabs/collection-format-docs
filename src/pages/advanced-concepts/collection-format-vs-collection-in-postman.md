@@ -53,7 +53,7 @@ When working with the Collection format, variables can have [multiple scopes](/a
 
 - **Collection variables**: Collection variables are declared within the collection scope of your workbench in Postman. They directly translate to collection variables in the Collection format and are always included in the exported JSON.
 
-- **Environment variables**: Environment variables enable you to scope your work to different environments. For example, development, testing, or production. One environment can be active at a time. The active environment determines what variables you can use within your collection. If you're using a collection variable, this variable isn't included in the variable declaration of your exported collection JSON. However, there are places in the exported collection that reference where this variable was being used.
+- **Environment variables**: [Environment variables](https://learning.postman.com/docs/sending-requests/managing-environments/) enable you to scope your work to different environments. For example, development, testing, or production. One environment can be active at a time. The active environment determines what variables you can use within your collection. If you're using an environment variable, this variable isn't included in the variable declaration of your exported collection JSON. However, there are places in the exported collection that reference where this variable was being used.
 
 ### Working with cookies
 
