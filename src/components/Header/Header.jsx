@@ -420,7 +420,7 @@ const Header = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href="/getting-started/overview/" className="dropdown-item">
+                    <a href="https://learning.postman.com/collection-format/getting-started/overview/" className="dropdown-item">
                       <div className="row">
                         <div className="col-1 lc-icon">
                           <img className="d-block mx-auto" src="https://voyager.postman.com/icon/appplication-performance-icon-postman.svg" height="40px" />
