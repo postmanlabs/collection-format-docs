@@ -46,7 +46,7 @@ Field Name | Type&nbsp;&nbsp; | Required | Description
 
 #### Reference diagram
 
-![Auth Unit Image](../../../images/auth.jpeg)
+![Auth Unit Image](../../../images/auth@2x.jpg)
 
 <br />
 
