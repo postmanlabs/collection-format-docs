@@ -16,7 +16,7 @@ contextual_links:
   - type: subtitle
 ---
 
-A collection is an API specification that provides a format for representing, modeling, and organizing different parts of an API request or workflow. Its format is both human-readable and machine-readable, and it lets you create executable workflows for your APIs.
+A Collection is an API specification that provides a format for representing, modeling, and organizing different parts of an API request or workflow. Its format is both human-readable and machine-readable, and it lets you create executable workflows for your APIs.
 
 Collections let you:
 
