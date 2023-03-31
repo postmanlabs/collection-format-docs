@@ -27,7 +27,7 @@
        }
      `,
    );
-   console.log(pathPrefix, 'path')
+
    return (
      <Helmet
        htmlAttributes={{
