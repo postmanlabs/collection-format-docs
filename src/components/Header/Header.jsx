@@ -11,7 +11,7 @@ import {
   CTAButton
 } from './HeaderStyles.jsx' ;
 
-// import navbarData from '../../../bff-data/navbar.json';
+import navbarData from '../../../bff-data/navbar.json';
 import navtopicsdropdownData from '../../../bff-data/navtopicsdropdown.json';
 
 // For local TOPNAVBAR TESTING
@@ -85,7 +85,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarDataLocal);
+  const [data, setData] = useState(navbarData);
   const [dataDropdown, setDataDropdown] = useState(navtopicsdropdownData);
   const [visibleHelloBar] = useState();
 
@@ -99,8 +99,8 @@ const Header = (props) => {
     const navbarKeys = ['items', 'media', 'type'];
     const navtopicsdropdownKeys = ['items', 'type'];
 
-    if (navbarKeys.every(key => Object.keys(navbarDataLocal).includes(key))) {
-      setData(navbarDataLocal)
+    if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
+      setData(navbarData)
     } else {
       setData(navbarDataLocal)
     }
