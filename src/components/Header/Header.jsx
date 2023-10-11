@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import { Link } from 'gatsby';
 import $ from 'jquery';
 import {
   PrimaryNavbarV6, 
@@ -13,7 +12,6 @@ import {
 
 import navbarData from '../../../bff-data/navbar.json';
 import navtopicsdropdownData from '../../../bff-data/navtopicsdropdown.json';
-
 // For local TOPNAVBAR TESTING
 import navbarDataLocal from '../../../build/navbarDev.json';
 import navtopicsdropdownDataLocal from '../../../build/navtopicsdropdownDev.json';
@@ -36,6 +34,23 @@ const LoginCheck = (props) => {
   if (!hidden) {
     return (
       <CTAButton>
+         <a
+          href={`https://go.postman${beta}.co/build`}
+          className='button__sign-in pingdom-transactional-check__sign-in-button'
+          style={{ padding: '4px 12px 4px 12px' }}
+          onClick={() => {
+            trackCustomEvent({
+              // string - required - The object that was interacted with (e.g.video)
+              category: 'lc-top-nav',
+              // string - required - Type of interaction (e.g. 'play')
+              action: 'Click',
+              // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
+              label: 'contact-sales-button-clicked',
+            });
+          }}
+        >
+         Contact Sales
+        </a>
         <a
           href={`https://go.postman${beta}.co/build`}
           className={
@@ -86,7 +101,7 @@ const Header = (props) => {
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
   const [data, setData] = useState(navbarData);
-  const [dataDropdown, setDataDropdown] = useState(navtopicsdropdownData);
+  const [dataDropdown, setDataDropdown] = useState(navbarDataLocal);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -97,10 +112,10 @@ const Header = (props) => {
     setBeta(beta);
 
     const navbarKeys = ['items', 'media', 'type'];
-    const navtopicsdropdownKeys = ['items', 'type'];
+    const navtopicsdropdownKeys = ['items', 'type']
 
-    if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
-      setData(navbarData)
+    if (navbarKeys.every(key => Object.keys(navbarDataLocal).includes(key))) {
+      setData(navbarDataLocal)
     } else {
       setData(navbarDataLocal)
     }
@@ -317,7 +332,7 @@ const Header = (props) => {
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
                                   <a
-                                    className="dropdown-item"
+                                    className={`${link.link} dropdown-item`}
                                     href={link.url}
                                     key={link.title}
                                   >
@@ -399,7 +414,7 @@ const Header = (props) => {
                         </div>
                         <div className="col-11">
                           <Paragraph className="strong mb-0" >{item.title} <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
-                          <Paragraph className="dropdown-item-text-wrap small">{item.body}</Paragraph>
+                          <Paragraph className="dropdown-item-text-wrap small" style={{    'color': '#707070 !important'}}>{item.body}</Paragraph>
                         </div>
                       </div>
                     </a>
@@ -443,12 +458,12 @@ const Header = (props) => {
           >
             <ul className="property-context-menu navbar-nav ml-auto">
             <li className="nav-item">
-                <Link
+                <a
                   className="nav-link uber-nav"
-                  to="/getting-started/overview/"
+                  href="https://www.postman.com/open-technologies/"
                 >
-                  Docs
-                </Link>
+                  Who we are
+                </a>
               </li>
             </ul>
            
