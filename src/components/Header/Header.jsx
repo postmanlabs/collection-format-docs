@@ -460,9 +460,9 @@ const Header = (props) => {
             <li className="nav-item">
                 <a
                   className="nav-link uber-nav"
-                  href="https://www.postman.com/open-technologies/"
+                  href="/getting-started/overview/"
                 >
-                  Who we are
+                  Docs
                 </a>
               </li>
             </ul>
