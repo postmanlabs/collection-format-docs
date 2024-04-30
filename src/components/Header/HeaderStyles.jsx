@@ -651,15 +651,20 @@ export const DropdownStyles = styled.div`
       width: 64rem;
     }
   }
+
+  .row__short {
+      width: 52rem;
+    }
+    
    .dropdown-col {
-    padding: 0 12px;
+    /* padding: 0 12px; */
     @media screen and (max-width: 991px) {
       margin-bottom: 2rem;
     }
   }
-  .dropdown-col:first-child {
+  /* .dropdown-col:first-child {
     max-width: 30%;
-  }
+  } */
 
   .dropdown-header {
     padding: 5px;
