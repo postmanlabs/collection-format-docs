@@ -1,7 +1,3 @@
-# This Project Has Been Archived
-https://www.postman.com/open-technologies/
-
-
 ![Postman logo](https://assets.getpostman.com/common-share/postman-github-logo.png "Postman logo")
 
 # Postman Collection Format
