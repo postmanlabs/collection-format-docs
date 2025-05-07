@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@master
         with:
-          node-version: '14'
+          node-version: '18.20.5'
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -57,7 +57,7 @@ jobs:
           DOMAIN_NAME: ${{secrets.BETA_DOMAIN_NAME}}
         run: |
             npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
-            npm install
+            npm run npm
             npm run clean
             npm run build:dev
             aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}}/collection-format --delete
