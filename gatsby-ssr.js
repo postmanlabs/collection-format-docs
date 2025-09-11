@@ -22,8 +22,7 @@ exports.onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents }) => {
       'data-px': '<!-- Transcend -->',
       src: `https://transcend-cdn.com/${transcendEnv}/1f0cf102-c592-4eb4-834f-e07f2fe68ef1/airgap.js`,
       'data-cfasync': 'false',
-      'data-local-sync': 'allow-network-observable',
-      async: true
+      'data-local-sync': 'allow-network-observable'
     })
   );
 
